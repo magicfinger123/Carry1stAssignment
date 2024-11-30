@@ -1,0 +1,10 @@
+framework module SwiftUI_SimpleToast {
+  umbrella header "SwiftUI-SimpleToast-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftUI_SimpleToast.__Swift {
+  exclude header "SwiftUI_SimpleToast-Swift.h"
+}

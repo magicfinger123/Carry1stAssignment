@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_Carry1st_Carry1stUITestsVersionString[];
+ extern const double Pods_Carry1st_Carry1stUITestsVersionNumber;
+
+ const unsigned char Pods_Carry1st_Carry1stUITestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_Carry1st_Carry1stUITests  PROJECT:Pods-1" "\n";
+ const double Pods_Carry1st_Carry1stUITestsVersionNumber __attribute__ ((used)) = (double)1.;
