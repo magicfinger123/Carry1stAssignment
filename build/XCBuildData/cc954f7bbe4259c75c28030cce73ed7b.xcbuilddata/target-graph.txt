@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'Carry1st' in project 'Carry1st'
+➜ Implicit dependency on target 'Pods-Carry1st' in project 'Pods' via file 'Pods_Carry1st.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'SwiftUI-SimpleToast' in project 'Pods' via options '-framework SwiftUI_SimpleToast' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-Carry1st' in project 'Pods'
+➜ Explicit dependency on target 'SwiftUI-SimpleToast' in project 'Pods'
+Target 'SwiftUI-SimpleToast' in project 'Pods' (no dependencies)

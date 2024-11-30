@@ -28,7 +28,7 @@ struct SelectedCategoryScreen: View {
          
                 LazyVGrid(columns: columns, spacing: 16) {
                     ForEach(viewModel.products) { product in
-                        ProductItemView(product: product)
+                        ProductItemView(product: product, onAddToCart: {})
                     }
                 }
             }.padding(.horizontal, 16.0)

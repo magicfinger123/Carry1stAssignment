@@ -1,0 +1,3 @@
+#!/bin/sh
+"${PODS_ROOT}/Target Support Files/Pods-Carry1st-Carry1stUITests/Pods-Carry1st-Carry1stUITests-frameworks.sh"
+

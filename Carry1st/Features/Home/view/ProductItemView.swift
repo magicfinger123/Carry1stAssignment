@@ -8,6 +8,7 @@ import SwiftUI
 struct ProductItemView: View {
     var product: ProductItem
     @Environment(\.modelContext) var context
+    var onAddToCart: () -> Void
     
     var body: some View {
         ZStack {
@@ -68,8 +69,8 @@ struct ProductItemView: View {
             HStack {
                 Spacer()
                 PlusButton {
-                    
-                   try? product.addProduct(context: context, qty: 1)
+                    onAddToCart()
+                   // CartService.shared.addItem(context: context, product: product, qty: 1)
                 }
             }
         }

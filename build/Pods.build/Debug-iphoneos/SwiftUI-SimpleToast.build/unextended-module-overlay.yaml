@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Debug-iphoneos/SwiftUI-SimpleToast/SwiftUI_SimpleToast.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Debug-iphoneos/SwiftUI-SimpleToast/SwiftUI_SimpleToast.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "SwiftUI_SimpleToast-Swift.h",
+      'external-contents': "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/unextended-interface-header.h",
+    }]
+    }]
+}

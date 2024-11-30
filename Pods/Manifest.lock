@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUI-SimpleToast (0.6.2)
+
+DEPENDENCIES:
+  - SwiftUI-SimpleToast (~> 0.6.2)
+
+SPEC REPOS:
+  trunk:
+    - SwiftUI-SimpleToast
+
+SPEC CHECKSUMS:
+  SwiftUI-SimpleToast: 34a7ede33ac00e1ab21cc114c041d68da5fbc6b3
+
+PODFILE CHECKSUM: 81e89574c31ad23f73fc3ff4e5410e2857e9a8b2
+
+COCOAPODS: 1.15.2
