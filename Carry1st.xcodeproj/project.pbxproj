@@ -29,9 +29,31 @@
 		6848C2022CF5B115009C6071 /* Carry1stUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Carry1stUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6848C2582CF5B8EF009C6071 /* Exceptions for "Carry1st" folder in "Carry1st" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ApiService/service/MockApiService.swift,
+				Info.plist,
+			);
+			target = 6848C1E52CF5B114009C6071 /* Carry1st */;
+		};
+		6848C26F2CF6183D009C6071 /* Exceptions for "Carry1st" folder in "Carry1stTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ApiService/service/MockApiService.swift,
+			);
+			target = 6848C1F72CF5B115009C6071 /* Carry1stTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6848C1E82CF5B114009C6071 /* Carry1st */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6848C2582CF5B8EF009C6071 /* Exceptions for "Carry1st" folder in "Carry1st" target */,
+				6848C26F2CF6183D009C6071 /* Exceptions for "Carry1st" folder in "Carry1stTests" target */,
+			);
 			path = Carry1st;
 			sourceTree = "<group>";
 		};
@@ -396,12 +418,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Carry1st/Preview Content\"";
-				DEVELOPMENT_TEAM = 95FBKY5Y4V;
+				DEVELOPMENT_TEAM = 8W4J74NY5Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carry1st/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,12 +447,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Carry1st/Preview Content\"";
-				DEVELOPMENT_TEAM = 95FBKY5Y4V;
+				DEVELOPMENT_TEAM = 8W4J74NY5Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carry1st/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
