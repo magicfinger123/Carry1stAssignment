@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests-master.dia",
+    "emit-module-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests-master.swiftdeps"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/ApiService/service/MockApiService.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.dia",
+    "index-unit-output-path" : "/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/MockApiService~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1stTests/ApiServiceTest.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.dia",
+    "index-unit-output-path" : "/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/ApiServiceTest~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1stTests/Carry1stTests.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.dia",
+    "index-unit-output-path" : "/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/Carry1stTests~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1stTests/CartServiceTest.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.dia",
+    "index-unit-output-path" : "/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/CartServiceTest~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1stTests/TestModelContext.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.dia",
+    "index-unit-output-path" : "/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1stTests.build/Objects-normal/arm64/TestModelContext~partial.swiftmodule"
+  }
+}

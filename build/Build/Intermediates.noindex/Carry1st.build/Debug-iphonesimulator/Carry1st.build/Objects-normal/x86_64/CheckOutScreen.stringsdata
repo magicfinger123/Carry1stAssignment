@@ -1,0 +1,16 @@
+{
+  "source": "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Cart/cartCheckOut/CheckOutScreen.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter coupon code",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 48
+        }
+      }
+    ]
+  },
+  "version": 1
+}

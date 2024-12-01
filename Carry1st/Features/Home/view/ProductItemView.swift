@@ -42,11 +42,8 @@ struct ProductItemView: View {
                 }
                 TxtWrkSB(txt: String(product.price ?? 0.0), size: 14,color: "kprimary")
             }.padding(.horizontal,12)
-            //                .frame(width: 110)
             Spacer().frame(height: 10)
-            
-            
-        }
+       }
         VStack{
             Spacer().frame(height: 14)
             HStack{

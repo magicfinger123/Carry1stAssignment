@@ -1,6 +1,0 @@
-framework module Pods_Carry1stTests {
-  umbrella header "Pods-Carry1stTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

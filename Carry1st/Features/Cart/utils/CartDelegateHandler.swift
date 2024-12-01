@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Toasts
 import SwiftUI
 
 class CartDelegateHandler: ObservableObject, CartServiceProtocol {
@@ -14,7 +13,7 @@ class CartDelegateHandler: ObservableObject, CartServiceProtocol {
     @Published var showError: Bool = false
     @Published  var toast: Toast? = nil
    
-    @Environment(\.presentToast) var presentToast
+  
     
     func cartActionSuccessful(msg: String) {
         DispatchQueue.main.async {

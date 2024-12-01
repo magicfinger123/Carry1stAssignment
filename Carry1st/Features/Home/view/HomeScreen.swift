@@ -24,12 +24,7 @@ struct HomeScreen: View {
                 ScrollView(showsIndicators: false) {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 6) {
-                            NavigationButton(
-                                destination: EnterEmailScreen(), action: {
-                                    print("Button tapped")
-                                }) {
-                                    HorizontalButton(imageName: "login", title: "Sign in")
-                                }
+                            HorizontalButton(imageName: "login", title: "Sign in")
                             
                             HorizontalButton(imageName: "diamond", title: "Deals")
                             HorizontalButton(imageName: "category", title: "Categories")
