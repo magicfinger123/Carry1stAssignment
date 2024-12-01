@@ -70,7 +70,6 @@ struct ProductItemView: View {
                 Spacer()
                 PlusButton {
                     onAddToCart()
-                   // CartService.shared.addItem(context: context, product: product, qty: 1)
                 }
             }
         }

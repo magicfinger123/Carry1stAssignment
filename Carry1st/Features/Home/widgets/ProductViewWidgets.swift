@@ -4,7 +4,7 @@
 //
 //  Created by Michael Ossai on 01/12/2024.
 //
-
+import SwiftUI
 
 struct ProductAPPBar: View {
     var backTap: () -> Void
@@ -41,17 +41,39 @@ struct ProductAPPBar: View {
 
 struct ProductImageWidget: View {
     @State var selection:Int
+    var image: String
     var body: some View {
         VStack {
             TabView(selection: $selection) {
                 ForEach(0..<productImages.count, id: \.self) { index in
                     HStack {
-                        Image(productImages[index])
-                            .resizable()
-                        //.scaledToFit()
-                            .frame(width: 342-32, height: 250-32)
-                            .cornerRadius(10)
-                            .tag(index)
+                        AsyncImage(url: URL(string: image)) { phase in
+                            switch phase {
+                            case .empty:
+                                ProgressView() // Show a loading indicator while the image is being loaded
+                            case .success(let image):
+                                image
+                                    .resizable()
+                                    .scaledToFit() // Adjust as needed (e.g., .scaledToFill())
+                            case .failure:
+                                Image(systemName: "photo") // Fallback image
+                                    .resizable()
+                                    .scaledToFit()
+                            @unknown default:
+                                EmptyView()
+                            }
+                        }
+                        .scaledToFit()
+                        .frame(width: 342-32, height: 250-32) // Adjust as needed
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .padding(.bottom, 8)
+                        .tag(index)
+//                        Image(productImages[index])
+//                            .resizable()
+//                        //.scaledToFit()
+//                            .frame(width: 342-32, height: 250-32)
+//                            .cornerRadius(10)
+//                            .tag(index)
                     } .frame(width: 342, height: 250)
                         .background(Color("colorF5"))
                         .cornerRadius(10)

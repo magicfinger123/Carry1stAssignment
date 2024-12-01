@@ -9,7 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct CartScreen: View {
-    
     @State private var itemCounts: Int = 1
     @Query var tasks: [ProductData]
     @Environment(\.modelContext) var context
@@ -43,6 +42,7 @@ struct CartScreen: View {
         }.onAppear {
             CartService.shared.delegate = delegateHandler
         }
+        .toastView(toast: $delegateHandler.toast)
     }
 }
 

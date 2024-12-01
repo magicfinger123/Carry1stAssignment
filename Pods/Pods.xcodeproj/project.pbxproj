@@ -3,121 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E9A8210907B12BD8B2C63E697180B99 /* SimpleToastSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD1643132EEB55B45FE906F9C6BB2B /* SimpleToastSlide.swift */; };
-		16BE73292B88131F7B5CA18447645884 /* SwiftUI-SimpleToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E25BCFA96D67598BBAC0A347BB02E1 /* SwiftUI-SimpleToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2857159433E7CA5D4DF2AA246EADDC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
-		2FE937ED053CC6C0CC2620B9FB0B49DB /* SimpleToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EBF8A445A2040E4545F1F9D1BCD552 /* SimpleToast.swift */; };
-		34799BC8DC801CA8BF6819BA3DFBCBE9 /* Pods-Carry1stTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 857991655F8D1E3EED618A4CF2F1D5DA /* Pods-Carry1stTests-dummy.m */; };
-		5CEB31108BE36392088EB034C0C5C613 /* Pods-Carry1st-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6477F591DCD8AD973E8D2939C9DFFF5C /* Pods-Carry1st-dummy.m */; };
-		6A23439BCBC10B69B4A096E1A3DE7FD8 /* Pods-Carry1st-Carry1stUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0D6D17EF8EA3D06BF1A1F9C40BB4DF /* Pods-Carry1st-Carry1stUITests-dummy.m */; };
-		791281646BA21E9FD1EFBA8FFAA3A808 /* SimpleToastOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A9F01DA5851D4866D53408DCA7AA8 /* SimpleToastOptions.swift */; };
-		7ED9057D597BDD1E6FD4DD6FCDACA774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
-		806DA8332A77BB66CE2B6D53A394F324 /* SimpleToastFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF57DD158B9ABA00A84172B927CAFA7 /* SimpleToastFade.swift */; };
-		962E33A1C217BAF498D3F586F0F2E5B2 /* SimpleToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EAF1895C93D091DF709316F11F67 /* SimpleToastModifier.swift */; };
-		97E8956FA51A7006BD6270094C78DF88 /* SwiftUI-SimpleToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F3B70EB50059935AE7EC1314B2D14F /* SwiftUI-SimpleToast-dummy.m */; };
-		AC9DBE7E7ADB00EAE841EB75929F6217 /* Pods-Carry1st-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD720390A15D6B57DBC52C24DF01407 /* Pods-Carry1st-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEB23E5213A26B95F6D16AF31604B19D /* SimpleToastSkew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99300B9AABF1CDC8E3364BDCE3E3FD /* SimpleToastSkew.swift */; };
-		B1C057F99AFF5DF3F2E5A8C1AE11E2D8 /* SimpleToastScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453BF390CC531B70F32109D1CA85AA0 /* SimpleToastScale.swift */; };
-		C292A60226B39279C1343650A9B60FC9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */; };
-		C4311F6C708917457D50AE3F67314AE4 /* Pods-Carry1stTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 848EBBEEEF5430438EA7815181FF2DA6 /* Pods-Carry1stTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C550810756E0AE6D6831D3FFA9D0A7FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
-		D98E7DDCFF1D7567644051D0EC8BB6A2 /* Pods-Carry1st-Carry1stUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37845AD2D0872D8731DDC227240F2AC1 /* Pods-Carry1st-Carry1stUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DADD3F10434BDFAAC38AB2158298FCD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
+		34799BC8DC801CA8BF6819BA3DFBCBE9 /* Pods-Carry1stTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C305BC67D38AFAAEF1C38961B1708 /* Pods-Carry1stTests-dummy.m */; };
+		3E2F62231967685E68100022CEDBA964 /* Pods-Carry1st-Carry1stUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 689FFCF2B0D57CBE2C55FA04B455A737 /* Pods-Carry1st-Carry1stUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7257C56B5C2628D7255881B4911E8367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		79B14695401C33F29A01B641985F1CCC /* Pods-Carry1st-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C993CC9E831F90B409F3F167AE6691 /* Pods-Carry1st-dummy.m */; };
+		7ED9057D597BDD1E6FD4DD6FCDACA774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9BAC073D6F4CA9C7E9DA14EF8FC37BC1 /* Pods-Carry1st-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1574B964A0CCF20A64D256F4A7B74D /* Pods-Carry1st-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23CBA641382F82B99EE2A0F5F5D6C00 /* Pods-Carry1st-Carry1stUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9591D18452DBF9E1AA4784E283848 /* Pods-Carry1st-Carry1stUITests-dummy.m */; };
+		C4311F6C708917457D50AE3F67314AE4 /* Pods-Carry1stTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3EA91FAD4CDD18B0CFB9434C4DCBC5 /* Pods-Carry1stTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55C6217841E46E4EDEFDBF19CE96DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B4F419FAC3527AD10918D71940D762F /* PBXContainerItemProxy */ = {
+		A7D0961D1B09F9594CE81940B9763D22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 332321081B559BE843FF4C54CBDB7B94;
 			remoteInfo = "Pods-Carry1st";
 		};
-		C0D2B6E77706F0D1131535BD330BEA95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F079D1B4C5EF50D0D271B12AC5316ACF;
-			remoteInfo = "SwiftUI-SimpleToast";
-		};
-		E396FDC29EDCB94B059DE20AFCCA9400 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F079D1B4C5EF50D0D271B12AC5316ACF;
-			remoteInfo = "SwiftUI-SimpleToast";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
-		2760FEA66B6977F174090D9CF69F992E /* SwiftUI-SimpleToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftUI-SimpleToast.modulemap"; sourceTree = "<group>"; };
-		278318CC9101A8C1AD23D0A567EAE172 /* Pods-Carry1stTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1stTests.release.xcconfig"; sourceTree = "<group>"; };
+		22C993CC9E831F90B409F3F167AE6691 /* Pods-Carry1st-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carry1st-dummy.m"; sourceTree = "<group>"; };
+		2F831F562FB23AE69DE4699DDAD36B64 /* Pods-Carry1st-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carry1st-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3081B8B4434FB861DDD17DBC0A2DBF13 /* Pods-Carry1stTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1stTests.debug.xcconfig"; sourceTree = "<group>"; };
+		313EA193F8B76A34A7F048378F4A17FF /* Pods-Carry1st-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-acknowledgements.plist"; sourceTree = "<group>"; };
 		330DF0F65B9E7CB2554761E87E73A123 /* Pods-Carry1st */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Carry1st"; path = Pods_Carry1st.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37845AD2D0872D8731DDC227240F2AC1 /* Pods-Carry1st-Carry1stUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carry1st-Carry1stUITests-umbrella.h"; sourceTree = "<group>"; };
+		334580C6E39CFC60E68370004932C567 /* Pods-Carry1st-Carry1stUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-Carry1stUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		391349CB3C5F1196B62DCC04EFDCAB12 /* Pods-Carry1st.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carry1st.modulemap"; sourceTree = "<group>"; };
+		3DE9591D18452DBF9E1AA4784E283848 /* Pods-Carry1st-Carry1stUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carry1st-Carry1stUITests-dummy.m"; sourceTree = "<group>"; };
+		422568847B635E512D49A313683B437A /* Pods-Carry1stTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1stTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C9C23E12B8D8EB74DCF4D6AA6F92623 /* Pods-Carry1stTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Carry1stTests"; path = Pods_Carry1stTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D0D6D17EF8EA3D06BF1A1F9C40BB4DF /* Pods-Carry1st-Carry1stUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carry1st-Carry1stUITests-dummy.m"; sourceTree = "<group>"; };
-		6477F591DCD8AD973E8D2939C9DFFF5C /* Pods-Carry1st-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carry1st-dummy.m"; sourceTree = "<group>"; };
-		650E8BCC00BF95A11EA02360759B0DD0 /* Pods-Carry1st-Carry1stUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st-Carry1stUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6DD720390A15D6B57DBC52C24DF01407 /* Pods-Carry1st-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carry1st-umbrella.h"; sourceTree = "<group>"; };
-		7E7DA91B493B683C1BC96A22F2D71BAA /* Pods-Carry1st-Carry1stUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st-Carry1stUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8057BAEF48691FF880AD28E47C71D95B /* SwiftUI-SimpleToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftUI-SimpleToast-Info.plist"; sourceTree = "<group>"; };
-		83C18AD73104DE9445F8EDC59623009E /* Pods-Carry1st-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-acknowledgements.plist"; sourceTree = "<group>"; };
-		848EBBEEEF5430438EA7815181FF2DA6 /* Pods-Carry1stTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carry1stTests-umbrella.h"; sourceTree = "<group>"; };
-		857991655F8D1E3EED618A4CF2F1D5DA /* Pods-Carry1stTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carry1stTests-dummy.m"; sourceTree = "<group>"; };
-		8C684E5C7735DB47C4FD7FF26C6D993E /* Pods-Carry1stTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carry1stTests.modulemap"; sourceTree = "<group>"; };
-		93CD1643132EEB55B45FE906F9C6BB2B /* SimpleToastSlide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToastSlide.swift; path = Sources/SimpleToast/Modifier/SimpleToastSlide.swift; sourceTree = "<group>"; };
-		982410038307C19DB09C186794BA7616 /* Pods-Carry1st-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carry1st-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F1574B964A0CCF20A64D256F4A7B74D /* Pods-Carry1st-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carry1st-umbrella.h"; sourceTree = "<group>"; };
+		50E0A149E9ED7E0E5F35F135BD05DD9B /* Pods-Carry1stTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carry1stTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		524A701E3CA99D364907A91CF60A7BB6 /* Pods-Carry1st.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st.release.xcconfig"; sourceTree = "<group>"; };
+		689FFCF2B0D57CBE2C55FA04B455A737 /* Pods-Carry1st-Carry1stUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carry1st-Carry1stUITests-umbrella.h"; sourceTree = "<group>"; };
+		6A3EDC2052DFFF96C131DC12BBCC1592 /* Pods-Carry1st.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		756EE34FCC3FD41BDB44BFC4F4C9BB41 /* Pods-Carry1st-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-Info.plist"; sourceTree = "<group>"; };
+		8048903A7ABA3590643AB43F4F67EA76 /* Pods-Carry1st-Carry1stUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st-Carry1stUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8884338200C7040BC8DDDC30C579ADA4 /* Pods-Carry1stTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carry1stTests.modulemap"; sourceTree = "<group>"; };
+		894CECFE3F7B7481448AFD3033E578E9 /* Pods-Carry1st-Carry1stUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carry1st-Carry1stUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		953C305BC67D38AFAAEF1C38961B1708 /* Pods-Carry1stTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carry1stTests-dummy.m"; sourceTree = "<group>"; };
+		9A4362D6F8E8EE29543C79E7A1639CD9 /* Pods-Carry1st-Carry1stUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carry1st-Carry1stUITests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F99300B9AABF1CDC8E3364BDCE3E3FD /* SimpleToastSkew.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToastSkew.swift; path = Sources/SimpleToast/Modifier/SimpleToastSkew.swift; sourceTree = "<group>"; };
-		A0C26EBFE6A31CE05E2E6E21586BC4BD /* Pods-Carry1st-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-Info.plist"; sourceTree = "<group>"; };
-		A0F957A0AB8BEBE9B686F0D9BEC0ACAB /* Pods-Carry1st.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st.release.xcconfig"; sourceTree = "<group>"; };
-		A253C20C54A52B9C0FDA28712A8070AE /* Pods-Carry1stTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1stTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A453BF390CC531B70F32109D1CA85AA0 /* SimpleToastScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToastScale.swift; path = Sources/SimpleToast/Modifier/SimpleToastScale.swift; sourceTree = "<group>"; };
-		A6D5C6E32DF59AE3FFD8C8A9F0FBF335 /* Pods-Carry1stTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1stTests-Info.plist"; sourceTree = "<group>"; };
-		A8E25BCFA96D67598BBAC0A347BB02E1 /* SwiftUI-SimpleToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUI-SimpleToast-umbrella.h"; sourceTree = "<group>"; };
-		AC2222E3C2F2046707C4AD7393798107 /* SwiftUI-SimpleToast */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SwiftUI-SimpleToast"; path = SwiftUI_SimpleToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFC5928CD28177FF3E89F49887F06F2F /* Pods-Carry1st-Carry1stUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Carry1st-Carry1stUITests-frameworks.sh"; sourceTree = "<group>"; };
 		B3E204AF3D9B47B81E7AC570C42240DA /* Pods-Carry1st-Carry1stUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Carry1st-Carry1stUITests"; path = Pods_Carry1st_Carry1stUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDA2EAF1895C93D091DF709316F11F67 /* SimpleToastModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToastModifier.swift; path = Sources/SimpleToast/SimpleToastModifier.swift; sourceTree = "<group>"; };
-		C12874C3FA487BB5C4DECDEE9F2A7547 /* SwiftUI-SimpleToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftUI-SimpleToast.release.xcconfig"; sourceTree = "<group>"; };
-		C1EBF8A445A2040E4545F1F9D1BCD552 /* SimpleToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToast.swift; path = Sources/SimpleToast/SimpleToast.swift; sourceTree = "<group>"; };
-		D06A9F01DA5851D4866D53408DCA7AA8 /* SimpleToastOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToastOptions.swift; path = Sources/SimpleToast/SimpleToastOptions.swift; sourceTree = "<group>"; };
-		D0E0FBBAE3E42146E51CDA68EF9EDA3B /* SwiftUI-SimpleToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftUI-SimpleToast.debug.xcconfig"; sourceTree = "<group>"; };
-		D2F3B70EB50059935AE7EC1314B2D14F /* SwiftUI-SimpleToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUI-SimpleToast-dummy.m"; sourceTree = "<group>"; };
-		D4DF75B8D8F0AA1917A4A46324AFCE11 /* Pods-Carry1st.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carry1st.modulemap"; sourceTree = "<group>"; };
-		DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF0DB319285746B1E59BD64F5C9188AF /* SwiftUI-SimpleToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUI-SimpleToast-prefix.pch"; sourceTree = "<group>"; };
-		E49F7705D40DC462E44C8EC777599575 /* Pods-Carry1st-Carry1stUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carry1st-Carry1stUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6F0B7585AAEFBBF86DA811BF8314471 /* Pods-Carry1st-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Carry1st-frameworks.sh"; sourceTree = "<group>"; };
-		E8B16B777330AC07C818E84F037E6A66 /* Pods-Carry1st-Carry1stUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-Carry1stUITests-Info.plist"; sourceTree = "<group>"; };
-		EAA42334FC153C2180CFD5F7115635EB /* Pods-Carry1stTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carry1stTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EAF57DD158B9ABA00A84172B927CAFA7 /* SimpleToastFade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleToastFade.swift; path = Sources/SimpleToast/Modifier/SimpleToastFade.swift; sourceTree = "<group>"; };
-		F0017DE293255F637ADFBFDDC1135060 /* Pods-Carry1st.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st.debug.xcconfig"; sourceTree = "<group>"; };
-		F5D21ADC47A23FED1BFF6D3255C7E40D /* Pods-Carry1st-Carry1stUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carry1st-Carry1stUITests.modulemap"; sourceTree = "<group>"; };
-		F5F92D0781A912C12EA57414A9D78C35 /* Pods-Carry1stTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1stTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FDC4349B91A46B7DAF484DCC96469F63 /* Pods-Carry1st-Carry1stUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-Carry1stUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B43278BCEB919B57C7DACD275678E5D2 /* Pods-Carry1st-Carry1stUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1st-Carry1stUITests-Info.plist"; sourceTree = "<group>"; };
+		C7642F9220826B622C80740BAE71724A /* Pods-Carry1stTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carry1stTests-Info.plist"; sourceTree = "<group>"; };
+		DA255E9F43444AEF5BDB3160EA0D4E7F /* Pods-Carry1st-Carry1stUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1st-Carry1stUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E32E0717A693BEA614791F1D835B1609 /* Pods-Carry1stTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carry1stTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE3EA91FAD4CDD18B0CFB9434C4DCBC5 /* Pods-Carry1stTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carry1stTests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1898DDE93F3902AF2EE20B821E35C2EF /* Frameworks */ = {
+		08A5B409DC8EF72DEB0C720624033C18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C550810756E0AE6D6831D3FFA9D0A7FC /* Foundation.framework in Frameworks */,
-				C292A60226B39279C1343650A9B60FC9 /* SwiftUI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CBD87E0288DB65DA92805D6933DA07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2857159433E7CA5D4DF2AA246EADDC6F /* Foundation.framework in Frameworks */,
+				7257C56B5C2628D7255881B4911E8367 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,179 +77,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED24D91730194E982291D29912246DE7 /* Frameworks */ = {
+		E33CD07FD983F29D4667DBBCB2EF1398 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADD3F10434BDFAAC38AB2158298FCD3 /* Foundation.framework in Frameworks */,
+				E55C6217841E46E4EDEFDBF19CE96DF1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				367350C0206CEB39C83981ABCAA29148 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2A244BFE58FB1685F4C368993E7B103F /* SwiftUI-SimpleToast */ = {
-			isa = PBXGroup;
-			children = (
-				C1EBF8A445A2040E4545F1F9D1BCD552 /* SimpleToast.swift */,
-				EAF57DD158B9ABA00A84172B927CAFA7 /* SimpleToastFade.swift */,
-				BDA2EAF1895C93D091DF709316F11F67 /* SimpleToastModifier.swift */,
-				D06A9F01DA5851D4866D53408DCA7AA8 /* SimpleToastOptions.swift */,
-				A453BF390CC531B70F32109D1CA85AA0 /* SimpleToastScale.swift */,
-				9F99300B9AABF1CDC8E3364BDCE3E3FD /* SimpleToastSkew.swift */,
-				93CD1643132EEB55B45FE906F9C6BB2B /* SimpleToastSlide.swift */,
-				EE2C4B479DCE34F7170F7C0375385211 /* Support Files */,
-			);
-			name = "SwiftUI-SimpleToast";
-			path = "SwiftUI-SimpleToast";
-			sourceTree = "<group>";
-		};
-		367350C0206CEB39C83981ABCAA29148 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */,
-				20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3AA38A7D9FAF364AB908C0DBB17ECD29 /* Pods-Carry1st */ = {
+		9A904420293F5BE8BBC9FA195358EC3D /* Pods-Carry1st */ = {
 			isa = PBXGroup;
 			children = (
-				D4DF75B8D8F0AA1917A4A46324AFCE11 /* Pods-Carry1st.modulemap */,
-				982410038307C19DB09C186794BA7616 /* Pods-Carry1st-acknowledgements.markdown */,
-				83C18AD73104DE9445F8EDC59623009E /* Pods-Carry1st-acknowledgements.plist */,
-				6477F591DCD8AD973E8D2939C9DFFF5C /* Pods-Carry1st-dummy.m */,
-				E6F0B7585AAEFBBF86DA811BF8314471 /* Pods-Carry1st-frameworks.sh */,
-				A0C26EBFE6A31CE05E2E6E21586BC4BD /* Pods-Carry1st-Info.plist */,
-				6DD720390A15D6B57DBC52C24DF01407 /* Pods-Carry1st-umbrella.h */,
-				F0017DE293255F637ADFBFDDC1135060 /* Pods-Carry1st.debug.xcconfig */,
-				A0F957A0AB8BEBE9B686F0D9BEC0ACAB /* Pods-Carry1st.release.xcconfig */,
+				391349CB3C5F1196B62DCC04EFDCAB12 /* Pods-Carry1st.modulemap */,
+				2F831F562FB23AE69DE4699DDAD36B64 /* Pods-Carry1st-acknowledgements.markdown */,
+				313EA193F8B76A34A7F048378F4A17FF /* Pods-Carry1st-acknowledgements.plist */,
+				22C993CC9E831F90B409F3F167AE6691 /* Pods-Carry1st-dummy.m */,
+				756EE34FCC3FD41BDB44BFC4F4C9BB41 /* Pods-Carry1st-Info.plist */,
+				4F1574B964A0CCF20A64D256F4A7B74D /* Pods-Carry1st-umbrella.h */,
+				6A3EDC2052DFFF96C131DC12BBCC1592 /* Pods-Carry1st.debug.xcconfig */,
+				524A701E3CA99D364907A91CF60A7BB6 /* Pods-Carry1st.release.xcconfig */,
 			);
 			name = "Pods-Carry1st";
 			path = "Target Support Files/Pods-Carry1st";
-			sourceTree = "<group>";
-		};
-		4ACE818477E05AF6C8C34A147B4308FB /* Pods-Carry1stTests */ = {
-			isa = PBXGroup;
-			children = (
-				8C684E5C7735DB47C4FD7FF26C6D993E /* Pods-Carry1stTests.modulemap */,
-				EAA42334FC153C2180CFD5F7115635EB /* Pods-Carry1stTests-acknowledgements.markdown */,
-				F5F92D0781A912C12EA57414A9D78C35 /* Pods-Carry1stTests-acknowledgements.plist */,
-				857991655F8D1E3EED618A4CF2F1D5DA /* Pods-Carry1stTests-dummy.m */,
-				A6D5C6E32DF59AE3FFD8C8A9F0FBF335 /* Pods-Carry1stTests-Info.plist */,
-				848EBBEEEF5430438EA7815181FF2DA6 /* Pods-Carry1stTests-umbrella.h */,
-				A253C20C54A52B9C0FDA28712A8070AE /* Pods-Carry1stTests.debug.xcconfig */,
-				278318CC9101A8C1AD23D0A567EAE172 /* Pods-Carry1stTests.release.xcconfig */,
-			);
-			name = "Pods-Carry1stTests";
-			path = "Target Support Files/Pods-Carry1stTests";
-			sourceTree = "<group>";
-		};
-		661FA3F55E7AB9533796116C41A274F9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A244BFE58FB1685F4C368993E7B103F /* SwiftUI-SimpleToast */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		668C385B0D6B07362507E834ECFF13B7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3AA38A7D9FAF364AB908C0DBB17ECD29 /* Pods-Carry1st */,
-				D41B01F3503D1CEB8723F8795C2EAEF3 /* Pods-Carry1st-Carry1stUITests */,
-				4ACE818477E05AF6C8C34A147B4308FB /* Pods-Carry1stTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		94CD736B98DF8681A6267864C1DC6DC8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				330DF0F65B9E7CB2554761E87E73A123 /* Pods-Carry1st */,
-				B3E204AF3D9B47B81E7AC570C42240DA /* Pods-Carry1st-Carry1stUITests */,
-				4C9C23E12B8D8EB74DCF4D6AA6F92623 /* Pods-Carry1stTests */,
-				AC2222E3C2F2046707C4AD7393798107 /* SwiftUI-SimpleToast */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				661FA3F55E7AB9533796116C41A274F9 /* Pods */,
-				94CD736B98DF8681A6267864C1DC6DC8 /* Products */,
-				668C385B0D6B07362507E834ECFF13B7 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D3E3AA2A82DFFFEDB0EEE6F20352A5E4 /* Products */,
+				F3FC97B0E2251DD14C96BA916A219373 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D41B01F3503D1CEB8723F8795C2EAEF3 /* Pods-Carry1st-Carry1stUITests */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5D21ADC47A23FED1BFF6D3255C7E40D /* Pods-Carry1st-Carry1stUITests.modulemap */,
-				E49F7705D40DC462E44C8EC777599575 /* Pods-Carry1st-Carry1stUITests-acknowledgements.markdown */,
-				FDC4349B91A46B7DAF484DCC96469F63 /* Pods-Carry1st-Carry1stUITests-acknowledgements.plist */,
-				5D0D6D17EF8EA3D06BF1A1F9C40BB4DF /* Pods-Carry1st-Carry1stUITests-dummy.m */,
-				AFC5928CD28177FF3E89F49887F06F2F /* Pods-Carry1st-Carry1stUITests-frameworks.sh */,
-				E8B16B777330AC07C818E84F037E6A66 /* Pods-Carry1st-Carry1stUITests-Info.plist */,
-				37845AD2D0872D8731DDC227240F2AC1 /* Pods-Carry1st-Carry1stUITests-umbrella.h */,
-				650E8BCC00BF95A11EA02360759B0DD0 /* Pods-Carry1st-Carry1stUITests.debug.xcconfig */,
-				7E7DA91B493B683C1BC96A22F2D71BAA /* Pods-Carry1st-Carry1stUITests.release.xcconfig */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E3AA2A82DFFFEDB0EEE6F20352A5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330DF0F65B9E7CB2554761E87E73A123 /* Pods-Carry1st */,
+				B3E204AF3D9B47B81E7AC570C42240DA /* Pods-Carry1st-Carry1stUITests */,
+				4C9C23E12B8D8EB74DCF4D6AA6F92623 /* Pods-Carry1stTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5FED149BBEC5729CF3E089835DDD9A /* Pods-Carry1st-Carry1stUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A4362D6F8E8EE29543C79E7A1639CD9 /* Pods-Carry1st-Carry1stUITests.modulemap */,
+				894CECFE3F7B7481448AFD3033E578E9 /* Pods-Carry1st-Carry1stUITests-acknowledgements.markdown */,
+				334580C6E39CFC60E68370004932C567 /* Pods-Carry1st-Carry1stUITests-acknowledgements.plist */,
+				3DE9591D18452DBF9E1AA4784E283848 /* Pods-Carry1st-Carry1stUITests-dummy.m */,
+				B43278BCEB919B57C7DACD275678E5D2 /* Pods-Carry1st-Carry1stUITests-Info.plist */,
+				689FFCF2B0D57CBE2C55FA04B455A737 /* Pods-Carry1st-Carry1stUITests-umbrella.h */,
+				DA255E9F43444AEF5BDB3160EA0D4E7F /* Pods-Carry1st-Carry1stUITests.debug.xcconfig */,
+				8048903A7ABA3590643AB43F4F67EA76 /* Pods-Carry1st-Carry1stUITests.release.xcconfig */,
 			);
 			name = "Pods-Carry1st-Carry1stUITests";
 			path = "Target Support Files/Pods-Carry1st-Carry1stUITests";
 			sourceTree = "<group>";
 		};
-		EE2C4B479DCE34F7170F7C0375385211 /* Support Files */ = {
+		F3FC97B0E2251DD14C96BA916A219373 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2760FEA66B6977F174090D9CF69F992E /* SwiftUI-SimpleToast.modulemap */,
-				D2F3B70EB50059935AE7EC1314B2D14F /* SwiftUI-SimpleToast-dummy.m */,
-				8057BAEF48691FF880AD28E47C71D95B /* SwiftUI-SimpleToast-Info.plist */,
-				DF0DB319285746B1E59BD64F5C9188AF /* SwiftUI-SimpleToast-prefix.pch */,
-				A8E25BCFA96D67598BBAC0A347BB02E1 /* SwiftUI-SimpleToast-umbrella.h */,
-				D0E0FBBAE3E42146E51CDA68EF9EDA3B /* SwiftUI-SimpleToast.debug.xcconfig */,
-				C12874C3FA487BB5C4DECDEE9F2A7547 /* SwiftUI-SimpleToast.release.xcconfig */,
+				9A904420293F5BE8BBC9FA195358EC3D /* Pods-Carry1st */,
+				DF5FED149BBEC5729CF3E089835DDD9A /* Pods-Carry1st-Carry1stUITests */,
+				FD7858B4F331785BF6E29CFF2FD77051 /* Pods-Carry1stTests */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftUI-SimpleToast";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD7858B4F331785BF6E29CFF2FD77051 /* Pods-Carry1stTests */ = {
+			isa = PBXGroup;
+			children = (
+				8884338200C7040BC8DDDC30C579ADA4 /* Pods-Carry1stTests.modulemap */,
+				50E0A149E9ED7E0E5F35F135BD05DD9B /* Pods-Carry1stTests-acknowledgements.markdown */,
+				422568847B635E512D49A313683B437A /* Pods-Carry1stTests-acknowledgements.plist */,
+				953C305BC67D38AFAAEF1C38961B1708 /* Pods-Carry1stTests-dummy.m */,
+				C7642F9220826B622C80740BAE71724A /* Pods-Carry1stTests-Info.plist */,
+				FE3EA91FAD4CDD18B0CFB9434C4DCBC5 /* Pods-Carry1stTests-umbrella.h */,
+				3081B8B4434FB861DDD17DBC0A2DBF13 /* Pods-Carry1stTests.debug.xcconfig */,
+				E32E0717A693BEA614791F1D835B1609 /* Pods-Carry1stTests.release.xcconfig */,
+			);
+			name = "Pods-Carry1stTests";
+			path = "Target Support Files/Pods-Carry1stTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52EC85AC5D9F95CE9867FA6BE9928B6F /* Headers */ = {
+		802DC2523A2887AF6F395B94ECBD782D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16BE73292B88131F7B5CA18447645884 /* SwiftUI-SimpleToast-umbrella.h in Headers */,
+				9BAC073D6F4CA9C7E9DA14EF8FC37BC1 /* Pods-Carry1st-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8263FA5CEA070606D0F041E1B6B705C9 /* Headers */ = {
+		A9A60CB054A1C4794AC6B559C49CBD10 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9DBE7E7ADB00EAE841EB75929F6217 /* Pods-Carry1st-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADA19C52F61A227732F4C92DB01B9F18 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98E7DDCFF1D7567644051D0EC8BB6A2 /* Pods-Carry1st-Carry1stUITests-umbrella.h in Headers */,
+				3E2F62231967685E68100022CEDBA964 /* Pods-Carry1st-Carry1stUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,17 +214,16 @@
 /* Begin PBXNativeTarget section */
 		332321081B559BE843FF4C54CBDB7B94 /* Pods-Carry1st */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C70B3DF02FF5E29508498F37C58EA640 /* Build configuration list for PBXNativeTarget "Pods-Carry1st" */;
+			buildConfigurationList = E3387D484874730E38F77A9043EB5FD0 /* Build configuration list for PBXNativeTarget "Pods-Carry1st" */;
 			buildPhases = (
-				8263FA5CEA070606D0F041E1B6B705C9 /* Headers */,
-				3C54DBBEF1004CBA142B20F4357D3203 /* Sources */,
-				22CBD87E0288DB65DA92805D6933DA07 /* Frameworks */,
-				3EC0DB6FDF9F338007FA36F8CDBF5474 /* Resources */,
+				802DC2523A2887AF6F395B94ECBD782D /* Headers */,
+				DD0AF4DCEE2870AE8A5F392FF355AA19 /* Sources */,
+				E33CD07FD983F29D4667DBBCB2EF1398 /* Frameworks */,
+				0DC1FC03240947CBFB9C7F815831E304 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E055FA2D43061908BD4A61083452F2D3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Carry1st";
 			productName = Pods_Carry1st;
@@ -337,17 +232,16 @@
 		};
 		53C1B75AF46006389ACEB4238F15DD4C /* Pods-Carry1st-Carry1stUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224AF36ED320E2A009ABEBDBCF972B1D /* Build configuration list for PBXNativeTarget "Pods-Carry1st-Carry1stUITests" */;
+			buildConfigurationList = 0576678063BB3BC375E230C24A53C940 /* Build configuration list for PBXNativeTarget "Pods-Carry1st-Carry1stUITests" */;
 			buildPhases = (
-				ADA19C52F61A227732F4C92DB01B9F18 /* Headers */,
-				976E1B8A2018E4C6C62965749FDD429F /* Sources */,
-				ED24D91730194E982291D29912246DE7 /* Frameworks */,
-				7E7FC08116D406543CF71E8D2FB43EFA /* Resources */,
+				A9A60CB054A1C4794AC6B559C49CBD10 /* Headers */,
+				381A35D68A22A47FAED5F4AF071DDBC7 /* Sources */,
+				08A5B409DC8EF72DEB0C720624033C18 /* Frameworks */,
+				C060714BD08DB75FE7CC96DDE5E4A801 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9D52BAFCCFC124B359AE33595C9B446 /* PBXTargetDependency */,
 			);
 			name = "Pods-Carry1st-Carry1stUITests";
 			productName = Pods_Carry1st_Carry1stUITests;
@@ -366,29 +260,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				CF620844D10A0254068FBAD9AA8544B0 /* PBXTargetDependency */,
+				AF341CDABB6FE0F7FF07CC3C5B00B856 /* PBXTargetDependency */,
 			);
 			name = "Pods-Carry1stTests";
 			productName = Pods_Carry1stTests;
 			productReference = 4C9C23E12B8D8EB74DCF4D6AA6F92623 /* Pods-Carry1stTests */;
-			productType = "com.apple.product-type.framework";
-		};
-		F079D1B4C5EF50D0D271B12AC5316ACF /* SwiftUI-SimpleToast */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9CBF2371CCF36EDAE00C929A9AF74141 /* Build configuration list for PBXNativeTarget "SwiftUI-SimpleToast" */;
-			buildPhases = (
-				52EC85AC5D9F95CE9867FA6BE9928B6F /* Headers */,
-				552ABEDC380B1833FE40250C58380F1A /* Sources */,
-				1898DDE93F3902AF2EE20B821E35C2EF /* Frameworks */,
-				DBF7A05F533D01F19C4C3778143078F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SwiftUI-SimpleToast";
-			productName = SwiftUI_SimpleToast;
-			productReference = AC2222E3C2F2046707C4AD7393798107 /* SwiftUI-SimpleToast */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,7 +277,7 @@
 				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -410,27 +286,19 @@
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
-			productRefGroup = 94CD736B98DF8681A6267864C1DC6DC8 /* Products */;
+			productRefGroup = D3E3AA2A82DFFFEDB0EEE6F20352A5E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				332321081B559BE843FF4C54CBDB7B94 /* Pods-Carry1st */,
 				53C1B75AF46006389ACEB4238F15DD4C /* Pods-Carry1st-Carry1stUITests */,
 				AA07DEF9EEB064115D54D957130846D8 /* Pods-Carry1stTests */,
-				F079D1B4C5EF50D0D271B12AC5316ACF /* SwiftUI-SimpleToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3EC0DB6FDF9F338007FA36F8CDBF5474 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E7FC08116D406543CF71E8D2FB43EFA /* Resources */ = {
+		0DC1FC03240947CBFB9C7F815831E304 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,7 +312,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBF7A05F533D01F19C4C3778143078F1 /* Resources */ = {
+		C060714BD08DB75FE7CC96DDE5E4A801 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,64 +330,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C54DBBEF1004CBA142B20F4357D3203 /* Sources */ = {
+		381A35D68A22A47FAED5F4AF071DDBC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEB31108BE36392088EB034C0C5C613 /* Pods-Carry1st-dummy.m in Sources */,
+				B23CBA641382F82B99EE2A0F5F5D6C00 /* Pods-Carry1st-Carry1stUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		552ABEDC380B1833FE40250C58380F1A /* Sources */ = {
+		DD0AF4DCEE2870AE8A5F392FF355AA19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE937ED053CC6C0CC2620B9FB0B49DB /* SimpleToast.swift in Sources */,
-				806DA8332A77BB66CE2B6D53A394F324 /* SimpleToastFade.swift in Sources */,
-				962E33A1C217BAF498D3F586F0F2E5B2 /* SimpleToastModifier.swift in Sources */,
-				791281646BA21E9FD1EFBA8FFAA3A808 /* SimpleToastOptions.swift in Sources */,
-				B1C057F99AFF5DF3F2E5A8C1AE11E2D8 /* SimpleToastScale.swift in Sources */,
-				AEB23E5213A26B95F6D16AF31604B19D /* SimpleToastSkew.swift in Sources */,
-				0E9A8210907B12BD8B2C63E697180B99 /* SimpleToastSlide.swift in Sources */,
-				97E8956FA51A7006BD6270094C78DF88 /* SwiftUI-SimpleToast-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		976E1B8A2018E4C6C62965749FDD429F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A23439BCBC10B69B4A096E1A3DE7FD8 /* Pods-Carry1st-Carry1stUITests-dummy.m in Sources */,
+				79B14695401C33F29A01B641985F1CCC /* Pods-Carry1st-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CF620844D10A0254068FBAD9AA8544B0 /* PBXTargetDependency */ = {
+		AF341CDABB6FE0F7FF07CC3C5B00B856 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Carry1st";
 			target = 332321081B559BE843FF4C54CBDB7B94 /* Pods-Carry1st */;
-			targetProxy = 5B4F419FAC3527AD10918D71940D762F /* PBXContainerItemProxy */;
-		};
-		E055FA2D43061908BD4A61083452F2D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftUI-SimpleToast";
-			target = F079D1B4C5EF50D0D271B12AC5316ACF /* SwiftUI-SimpleToast */;
-			targetProxy = C0D2B6E77706F0D1131535BD330BEA95 /* PBXContainerItemProxy */;
-		};
-		E9D52BAFCCFC124B359AE33595C9B446 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftUI-SimpleToast";
-			target = F079D1B4C5EF50D0D271B12AC5316ACF /* SwiftUI-SimpleToast */;
-			targetProxy = E396FDC29EDCB94B059DE20AFCCA9400 /* PBXContainerItemProxy */;
+			targetProxy = A7D0961D1B09F9594CE81940B9763D22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		226A1A6B999BC6E21FC7FABFD3A2A38D /* Release */ = {
+		1CC0FD88DD4F40149657CD0D8C50C244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E7DA91B493B683C1BC96A22F2D71BAA /* Pods-Carry1st-Carry1stUITests.release.xcconfig */;
+			baseConfigurationReference = 6A3EDC2052DFFF96C131DC12BBCC1592 /* Pods-Carry1st.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A9BAFC80B1914D99030EBB9D820FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8048903A7ABA3590643AB43F4F67EA76 /* Pods-Carry1st-Carry1stUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -555,44 +433,9 @@
 			};
 			name = Release;
 		};
-		36FBE733E679A19232A0CE475C9248E5 /* Debug */ = {
+		842793E3E8F118E9294663ECCAE62FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E0FBBAE3E42146E51CDA68EF9EDA3B /* SwiftUI-SimpleToast.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftUI-SimpleToast/SwiftUI-SimpleToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftUI-SimpleToast/SwiftUI-SimpleToast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftUI-SimpleToast/SwiftUI-SimpleToast.modulemap";
-				PRODUCT_MODULE_NAME = SwiftUI_SimpleToast;
-				PRODUCT_NAME = SwiftUI_SimpleToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D857C9925C420A6A774D10A04F77192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0F957A0AB8BEBE9B686F0D9BEC0ACAB /* Pods-Carry1st.release.xcconfig */;
+			baseConfigurationReference = DA255E9F43444AEF5BDB3160EA0D4E7F /* Pods-Carry1st-Carry1stUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -604,7 +447,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carry1st-Carry1stUITests/Pods-Carry1st-Carry1stUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,45 +456,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		929B28CAF2BD0A4804360318AB1FBC96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0017DE293255F637ADFBFDDC1135060 /* Pods-Carry1st.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Carry1st-Carry1stUITests/Pods-Carry1st-Carry1stUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -667,7 +472,7 @@
 		};
 		9860C69EB7B333E4EE93EED43BA2957D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A253C20C54A52B9C0FDA28712A8070AE /* Pods-Carry1stTests.debug.xcconfig */;
+			baseConfigurationReference = 3081B8B4434FB861DDD17DBC0A2DBF13 /* Pods-Carry1stTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -702,9 +507,9 @@
 			};
 			name = Debug;
 		};
-		B695A68F4C6ECC2074BB93D7A9AC6C73 /* Debug */ = {
+		A30CB9053115BA666A2CC824375948BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650E8BCC00BF95A11EA02360759B0DD0 /* Pods-Carry1st-Carry1stUITests.debug.xcconfig */;
+			baseConfigurationReference = 524A701E3CA99D364907A91CF60A7BB6 /* Pods-Carry1st.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -716,7 +521,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Carry1st-Carry1stUITests/Pods-Carry1st-Carry1stUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -725,7 +530,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Carry1st-Carry1stUITests/Pods-Carry1st-Carry1stUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Carry1st/Pods-Carry1st.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -734,14 +539,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B792382F66B046B23DABCA392F95A942 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 278318CC9101A8C1AD23D0A567EAE172 /* Pods-Carry1stTests.release.xcconfig */;
+			baseConfigurationReference = E32E0717A693BEA614791F1D835B1609 /* Pods-Carry1stTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -905,50 +711,14 @@
 			};
 			name = Debug;
 		};
-		D800EC45E8B967182AC1E69849120206 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C12874C3FA487BB5C4DECDEE9F2A7547 /* SwiftUI-SimpleToast.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftUI-SimpleToast/SwiftUI-SimpleToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftUI-SimpleToast/SwiftUI-SimpleToast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftUI-SimpleToast/SwiftUI-SimpleToast.modulemap";
-				PRODUCT_MODULE_NAME = SwiftUI_SimpleToast;
-				PRODUCT_NAME = SwiftUI_SimpleToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		224AF36ED320E2A009ABEBDBCF972B1D /* Build configuration list for PBXNativeTarget "Pods-Carry1st-Carry1stUITests" */ = {
+		0576678063BB3BC375E230C24A53C940 /* Build configuration list for PBXNativeTarget "Pods-Carry1st-Carry1stUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B695A68F4C6ECC2074BB93D7A9AC6C73 /* Debug */,
-				226A1A6B999BC6E21FC7FABFD3A2A38D /* Release */,
+				842793E3E8F118E9294663ECCAE62FB9 /* Debug */,
+				7A9BAFC80B1914D99030EBB9D820FC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -971,20 +741,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CBF2371CCF36EDAE00C929A9AF74141 /* Build configuration list for PBXNativeTarget "SwiftUI-SimpleToast" */ = {
+		E3387D484874730E38F77A9043EB5FD0 /* Build configuration list for PBXNativeTarget "Pods-Carry1st" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36FBE733E679A19232A0CE475C9248E5 /* Debug */,
-				D800EC45E8B967182AC1E69849120206 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C70B3DF02FF5E29508498F37C58EA640 /* Build configuration list for PBXNativeTarget "Pods-Carry1st" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				929B28CAF2BD0A4804360318AB1FBC96 /* Debug */,
-				4D857C9925C420A6A774D10A04F77192 /* Release */,
+				1CC0FD88DD4F40149657CD0D8C50C244 /* Debug */,
+				A30CB9053115BA666A2CC824375948BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,6 +17,7 @@ class CartService {
     // Shared singleton instance
     static let shared = CartService()
     
+    
     // Private initializer to prevent instantiation from outside
     private init() {}
     
@@ -26,6 +27,7 @@ class CartService {
             let fetchDescriptor = FetchDescriptor<ProductData>(
                 predicate: #Predicate { $0.id == product.id }
             )
+            print("Fetching with descriptor: \(fetchDescriptor)") 
             let existingProducts = try context.fetch(fetchDescriptor)
             // If a product with the same ID already exists, skip saving
             guard existingProducts.isEmpty else {
@@ -55,6 +57,14 @@ class CartService {
         context.delete(item )
         delegate?.cartActionSuccessful(msg: "deleted item successful")
     }
+    func clearCart(context: ModelContext) {
+        do {
+            try context.delete(model: ProductData.self )
+          //  delegate?.cartActionSuccessful(msg: "deleted item successful")
+        }catch {
+            // delegate?.cartActionFailed(msg: "Failed to delete item")
+        }
+    }
     func updateItemQuantity(
         context: ModelContext,
         data: ProductData,
@@ -72,6 +82,7 @@ class CartService {
         data.quantity = quantity
         try? context.save()
     }
+    
     func calculateSubTotal(tasks: [ProductData]) -> String {
         let total = tasks.reduce(0) { $0 + ($1.price * Double($1.quantity)) }
         return setAmountString(amountValue: total, isoCodeStr: "USD")//"\(total)"

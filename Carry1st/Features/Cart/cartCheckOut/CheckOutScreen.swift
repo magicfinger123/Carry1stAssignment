@@ -75,6 +75,7 @@ struct CheckOutScreen: View {
                 CartService.shared.delegate = delegateHandler
             }
             .navigationBarHidden(true)
+            .toastView(toast: $delegateHandler.toast)
     }
 }
 

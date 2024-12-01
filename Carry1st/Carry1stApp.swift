@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import Toasts
 
 @main
 struct Carry1stApp: App {
@@ -28,6 +29,7 @@ struct Carry1stApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .installToast(position: .bottom)
         }
         .modelContainer(sharedModelContainer)
     }

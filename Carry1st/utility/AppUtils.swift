@@ -13,7 +13,7 @@ func setAmountString (amountValue: Double, isoCodeStr: String) -> String {
     let formatter = NumberFormatter()
     formatter.currencyCode = isoCodeStr
   //  formatter.currencySymbol = AppUtils.getCurrencySymbol(from: isoCodeStr)
-    formatter.numberStyle = NumberFormatter.Style.currencyAccounting
+    formatter.numberStyle = NumberFormatter.Style.currency
     
     if let formatterStr: String = formatter.string(from: NSNumber(value: amountValue))  {
         return formatterStr
