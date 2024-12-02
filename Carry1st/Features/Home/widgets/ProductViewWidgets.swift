@@ -95,8 +95,7 @@ struct productInfo: View {
     var name: String
     var amount:String
     var condition: String
-    var formerAmount:String?
-    var discount:String?
+
     
     var body: some View {
         VStack(alignment: .leading){
@@ -104,25 +103,9 @@ struct productInfo: View {
             Spacer().frame(height: 5)
             TxtWrk(txt: name, size: 16,maxLines: 1)
             Spacer().frame(height: 5)
-            HStack {
-                TxtWrkSB(txt: amount, size: 20,maxLines: 1).frame(width: 150)
-                Spacer().frame(width: 10)
-                if let formerAmount = formerAmount{
-                    TxtWrk(txt: formerAmount, size: 14,color: "hash").strikethrough(true, color: Color("brandFail"))
-                        .foregroundColor(.black)
-                        .frame(width: 110)
-                }
-                Spacer()
-                if let discount = discount{
-                    Button(action: {}){
-                        TxtWrkSB(txt: discount, size: 10,color: "orange00")
-                    }.padding(.horizontal,9)
-                        .padding(.vertical,6)
-                        .background(Color("orangeE6"))
-                        .cornerRadius(40)
-                }
-            }
-            Spacer().frame(height: 15)
+            TxtWrkSB(txt: amount, size: 20,maxLines: 1)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            Spacer().frame(height: 5)
             HStack {
                 TxtWrk(txt: "Condition:", size: 12,maxLines: 1)
                 Button(action: {}){
@@ -132,9 +115,11 @@ struct productInfo: View {
                     .background(Color("colorEE"))
                     .cornerRadius(40)
             }
+      
             
             
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.horizontal, 16.0)
     }
 }

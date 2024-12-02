@@ -13,7 +13,7 @@
 				<key>testFetchProducts</key>
 				<dict>
 					<key>mrnet</key>
-					<real>1.6258660554885864</real>
+					<real>0.87257301807403564</real>
 				</dict>
 			</dict>
 			<key>Carry1stTests</key>
@@ -21,7 +21,7 @@
 				<key>example</key>
 				<dict>
 					<key>mrnet</key>
-					<real>0.0092298984527587891</real>
+					<real>0.0057539939880371094</real>
 				</dict>
 			</dict>
 			<key>CartServiceTests</key>
@@ -65,12 +65,12 @@
 				<key>testExample</key>
 				<dict>
 					<key>mrnet</key>
-					<real>5.1881470680236816</real>
+					<real>17.899564027786255</real>
 				</dict>
 				<key>testLaunchPerformance</key>
 				<dict>
 					<key>mrnet</key>
-					<real>48.249797940254211</real>
+					<real>45.846182942390442</real>
 				</dict>
 			</dict>
 			<key>Carry1stUITestsLaunchTests</key>
@@ -78,7 +78,7 @@
 				<key>testLaunch</key>
 				<dict>
 					<key>mrnet</key>
-					<real>6.5443069934844971</real>
+					<real>68.523882985115051</real>
 				</dict>
 			</dict>
 		</dict>

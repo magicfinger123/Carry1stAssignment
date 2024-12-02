@@ -483,7 +483,26 @@ struct AddToCartBtn: View {
         }){
             HStack {
                 Image("cart_plus").resizable().scaledToFit().frame(width: 20,height: 20)
-                TxtWrkSB(txt: "Add to cart", size: 15,color: "background-color")
+                TxtWrkSB(txt: "Add to cart", size: 15,color: "kprimary")
+            }
+        }.frame(width: 200,height: 48)
+            .background(Color.white)
+            .cornerRadius(8)
+            .overlay(
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color("kprimary"), lineWidth: 1)
+                    .opacity(0.1)
+            )
+    }
+}
+struct buyNowBtn: View {
+    var tap: () -> Void
+    var body: some View {
+        Button(action: {
+            tap()
+        }){
+            HStack {
+                TxtWrkSB(txt: "Buy Now", size: 15,color: "background-color")
             }
         }.frame(width: 200,height: 48)
             .background(Color("kprimary"))
@@ -569,54 +588,17 @@ struct ColorSelectionView: View {
         .padding(.vertical, 9.0)
     }
 }
-struct ProductStoreVistDescriptionGift: View {
-    @Binding var isGift: Bool
-    var vistStoreTap: () -> Void
-    var storeName: String
+struct ProductDescription: View {
     var description: String
     
     var body: some View {
         VStack(alignment: .leading){
-            Spacer().frame(height: 20)
-            HStack {
-                HStack{
-                    Image("sell_icon").resizable().scaledToFit().frame(width: 16,height: 16).foregroundColor(Color("color7C"))
-                    TxtWrk(txt:storeName, size: 14,color: "color7C")
-                }
-                Spacer()
-                HStack{
-                    TxtWrk(txt: "Vist store", size: 12,
-                           color: "orange00")
-                    Spacer().frame(width: 2)
-                    Image(systemName: "chevron.forward").resizable().scaledToFit().frame(width: 10,height: 10).foregroundColor(Color("orange00"))
-                    
-                }.onTapGesture {
-                    vistStoreTap()
-                }
-            }
-            Spacer().frame(height: 20)
             TxtWrk(txt:"Description", size: 12,color:"kprimary")
+                .frame(maxWidth: .infinity, alignment: .leading)
             Spacer().frame(height: 7)
             TxtWrk(txt:description, size: 14,color:"kprimary",maxLines: 10000)
-            Spacer().frame(height:20)
-            Button(action: {
-                isGift.toggle()
-            }) {
-                HStack {
-                    Image(systemName: isGift ? "checkmark.square.fill" : "square")
-                        .resizable()
-                        .frame(width: 24,height: 24)
-                        .foregroundColor( Color("kprimary"))
-                    TxtWrk(txt: "Is this a gift? Let’s wrap it",
-                           size: 12,color: "kprimary")
-                }
-                
-            }
-            Spacer().frame(height: 50)
-            
-            
-            
-        }.padding(.horizontal,16)
+            Spacer()
+         }.padding(.horizontal,16)
     }
 }
 

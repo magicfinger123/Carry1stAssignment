@@ -7,7 +7,7 @@
 		<key>UIColorName</key>
 		<string>background-color</string>
 		<key>UIImageName</key>
-		<string>apple</string>
+		<string>splashIcon</string>
 		<key>UIImageRespectsSafeAreaInsets</key>
 		<true/>
 	</dict>
