@@ -12,6 +12,8 @@ struct CheckOutScreen: View {
     @State private var itemCount: Int = 1
     @State private var couponCode: String = ""
     @Environment(\.presentationMode) var presentationMode
+    var isBuyNow: Bool? = false
+    var buyNowData: ProductData?
     @Query var tasks: [ProductData]
     @Environment(\.modelContext) var context
     @StateObject private var delegateHandler = CartDelegateHandler()
@@ -25,21 +27,32 @@ struct CheckOutScreen: View {
               name: "Michael Ossai", address: "1 Sunday Ogunyade Street, Gbagada Express Way, beside Eterna Fuel Station, Gbagada, Lagos 100234, Nigeria"
             )
             HDivider()
-            List(tasks) { item in
-                       CartItemWidget(
-                           count: item.quantity,
-                           productItem: item, onQuantityChange: {
-                               count in
-                               if count < 1 {
-                                   context.delete(item)
-                                   return
-                               }
-                               CartService.shared.updateItemQuantity(context: context, data: item, quantity: count)
-                           }
-                       )
-                       .buttonStyle(PlainButtonStyle())
-                   }
-                   .listStyle(PlainListStyle())
+            if isBuyNow == true {
+                CartItemWidget(
+                    count: buyNowData!.quantity,
+                    productItem: buyNowData!, onQuantityChange: {
+                        count in
+                       
+                    }
+                )
+                Spacer()
+            }else {
+                List(tasks) { item in
+                    CartItemWidget(
+                        count: item.quantity,
+                        productItem: item, onQuantityChange: {
+                            count in
+                            if count < 1 {
+                                context.delete(item)
+                                return
+                            }
+                            CartService.shared.updateItemQuantity(context: context, data: item, quantity: count)
+                        }
+                    )
+                    .buttonStyle(PlainButtonStyle())
+                }
+                .listStyle(PlainListStyle())
+            }
             VStack {
                 HStack {
                     HStack {
