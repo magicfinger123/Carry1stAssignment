@@ -29,7 +29,7 @@ struct ProductItem: Codable, Identifiable {
                            currencyCode: currencyCode ?? "",
                            currencySymbol: currencySymbol ?? "",
                            quantity: qty,
-                           imageLocation: imageLocation ?? "", maxQty: quantity ?? 0
+                           imageLocation: imageLocation ?? "", maxQty: quantity ?? 1
         )
     }
   
