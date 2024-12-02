@@ -1,0 +1,79 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "e61b66f64cdbc0bd175a4f2161abb73b6856df29c42822286f77140091dbf7d5"
+    },
+    {
+      "guid" : "e61b66f64cdbc0bd175a4f2161abb73b89287ed2e6b0f5dc3f91e19da273017e"
+    },
+    {
+      "guid" : "e61b66f64cdbc0bd175a4f2161abb73b22cf3eb8c80fed9bb81a4410b4202745"
+    }
+  ],
+  "containerPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Products",
+      "derivedDataPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build",
+      "indexDataStoreFolderPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "EXCLUDED_ARCHS" : "arm64",
+          "SDKROOT" : "iphonesimulator18.0"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone11,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone11,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "65FD4595-541D-4BEE-9B84-E437440384B5",
+          "TARGET_DEVICE_MODEL" : "iPhone11,2",
+          "TARGET_DEVICE_OS_VERSION" : "17.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "test",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

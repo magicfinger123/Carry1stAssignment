@@ -15,6 +15,8 @@ struct ProductDetailsScreen: View {
     @State private var selectedSize = ""
     @State private var selectedColor: Color = .brown
     @State private var isChecked = false
+    @Environment(\.modelContext) var context
+    @StateObject private var delegateHandler = CartDelegateHandler()
 
     let productColors: [Color] = [.red, .blue, .green, .yellow, .purple,.black,.gray]
     var body: some View {
@@ -23,37 +25,34 @@ struct ProductDetailsScreen: View {
             Spacer().frame(height: 10)
             
             ScrollView(showsIndicators: true) {
-                ProductImageWidget(selection: selection)
+                ProductImageWidget(selection: selection, image: details.imageLocation ?? "")
                 productInfo(
-                    code: "Alpha Code: A8GH9-21944", name: details.name ?? "", amount: String(details.price ?? 0.0), condition: "New")
-                
+                    code: "", name: details.name ?? "", amount: setAmountString(amountValue: details.price ?? 0, isoCodeStr: details.currencyCode ?? ""), condition: "New")
                 ColorSelectionView(selectedColor: $selectedColor, colors: productColors)
-                
                 SizeSelectionView(selectedSize: $selectedSize, sizes: productSizes)
-                ProductStoreVistDescriptionGift(
-                    isGift: $isChecked,
-                    vistStoreTap: {},
-                    storeName: details.description ?? "", description: "jsjsjswow")
+                ProductDescription( description: details.description ?? "")
                 
             }//scroll view
-            
             HStack {
                 CounterBtn(count: $itemCount, minValue: 0, maxValue: 100000000000)
                 AddToCartBtn(tap: {
-                    
+                    CartService.shared.addItem(context: context, product: details, qty: itemCount)
                 })
-                
+            }
+            Spacer().frame(height: 10)
+            NavigationLink(destination: CheckOutScreen(isBuyNow: true, buyNowData: details.getProductData(qty: itemCount))) {
+                IconAndTextBtn(title: "Buy Now", icons: "cardWhite")
             }
             .padding(.all, 16.0)
             
         }.background(Color.white)
             .navigationBarHidden(true)
+            .onAppear{
+                CartService.shared.delegate = delegateHandler
+            }
+            .toastView(toast: $delegateHandler.toast)
+        
     }
 }
-
-//#Preview {
-//    ProductDetailsScreen(details: Product(name: "Nike Air Jordan 4", description: "Kicks of Lagos", image: "laptop",price: "₦154,900.00",addedToCart: false,addedToFavorite: false,promoPercentage: "")
-//    )
-//}
 
 
