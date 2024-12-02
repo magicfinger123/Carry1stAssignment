@@ -95,19 +95,19 @@ class CartService {
         } + deliveryFee
         return setAmountString(amountValue: total, isoCodeStr: "USD")
     }
-    func updateCounts(context: ModelContext, data: ProductData, quantity: Int) {
-        data.quantity = quantity
-        try? context.save()
-    }
-    func calculateSubTotal(tasks: [ProductData]) -> String {
-        let total = tasks.reduce(0) { $0 + ($1.price * Double($1.quantity)) }
-        return setAmountString(amountValue: total, isoCodeStr: "USD")//"\(total)"
-    }
-    func calculateTotal(tasks: [ProductData]) -> String {
-        let deliveryFee = 5.00
-        let total = tasks.reduce(0) {
-            $0 + ($1.price * Double($1.quantity))
-        } + deliveryFee
-        return setAmountString(amountValue: total, isoCodeStr: "USD")
-    }
+//    func updateCounts(context: ModelContext, data: ProductData, quantity: Int) {
+//        data.quantity = quantity
+//        try? context.save()
+//    }
+//    func calculateSubTotal(tasks: [ProductData]) -> String {
+//        let total = tasks.reduce(0) { $0 + ($1.price * Double($1.quantity)) }
+//        return setAmountString(amountValue: total, isoCodeStr: "USD")//"\(total)"
+//    }
+//    func calculateTotal(tasks: [ProductData]) -> String {
+//        let deliveryFee = 5.00
+//        let total = tasks.reduce(0) {
+//            $0 + ($1.price * Double($1.quantity))
+//        } + deliveryFee
+//        return setAmountString(amountValue: total, isoCodeStr: "USD")
+//    }
 }

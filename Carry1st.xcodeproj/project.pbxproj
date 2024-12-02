@@ -28,7 +28,7 @@
 		684C4A1C2CFB019400A92996 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49E22CFB019400A92996 /* MainView.swift */; };
 		684C4A1D2CFB019400A92996 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49E72CFB019400A92996 /* Product.swift */; };
 		684C4A1E2CFB019400A92996 /* productData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49E92CFB019400A92996 /* productData.swift */; };
-		684C4A1F2CFB019400A92996 /* CartRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49EE2CFB019400A92996 /* CartRepository.swift */; };
+		684C4A1F2CFB019400A92996 /* CartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49EE2CFB019400A92996 /* CartService.swift */; };
 		684C4A202CFB019400A92996 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49F72CFB019400A92996 /* Skeleton.swift */; };
 		684C4A212CFB019400A92996 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49F82CFB019400A92996 /* Toast.swift */; };
 		684C4A222CFB019400A92996 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C49FA2CFB019400A92996 /* AppUtils.swift */; };
@@ -101,7 +101,7 @@
 		684C49E72CFB019400A92996 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		684C49E92CFB019400A92996 /* productData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productData.swift; sourceTree = "<group>"; };
 		684C49EC2CFB019400A92996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		684C49EE2CFB019400A92996 /* CartRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRepository.swift; sourceTree = "<group>"; };
+		684C49EE2CFB019400A92996 /* CartService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartService.swift; sourceTree = "<group>"; };
 		684C49F02CFB019400A92996 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		684C49F32CFB019400A92996 /* sfproregular.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfproregular.OTF; sourceTree = "<group>"; };
 		684C49F42CFB019400A92996 /* workSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = workSans.ttf; sourceTree = "<group>"; };
@@ -346,12 +346,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		684C49EF2CFB019400A92996 /* Repository */ = {
+		684C49EF2CFB019400A92996 /* CartService */ = {
 			isa = PBXGroup;
 			children = (
-				684C49EE2CFB019400A92996 /* CartRepository.swift */,
+				684C49EE2CFB019400A92996 /* CartService.swift */,
 			);
-			path = Repository;
+			path = CartService;
 			sourceTree = "<group>";
 		};
 		684C49F22CFB019400A92996 /* resources */ = {
@@ -402,7 +402,7 @@
 				684C49E52CFB019400A92996 /* font */,
 				684C49EB2CFB019400A92996 /* Model */,
 				684C49ED2CFB019400A92996 /* Preview Content */,
-				684C49EF2CFB019400A92996 /* Repository */,
+				684C49EF2CFB019400A92996 /* CartService */,
 				684C49F22CFB019400A92996 /* resources */,
 				684C49FD2CFB019400A92996 /* utility */,
 				684C49FE2CFB019400A92996 /* Assets.xcassets */,
@@ -624,7 +624,7 @@
 				684C4A1C2CFB019400A92996 /* MainView.swift in Sources */,
 				684C4A1D2CFB019400A92996 /* Product.swift in Sources */,
 				684C4A1E2CFB019400A92996 /* productData.swift in Sources */,
-				684C4A1F2CFB019400A92996 /* CartRepository.swift in Sources */,
+				684C4A1F2CFB019400A92996 /* CartService.swift in Sources */,
 				684C4A202CFB019400A92996 /* Skeleton.swift in Sources */,
 				684C4A442CFC2DDA00A92996 /* ProductViewWidgets.swift in Sources */,
 				684C4A212CFB019400A92996 /* Toast.swift in Sources */,
@@ -818,8 +818,8 @@
 				INFOPLIST_FILE = Carry1st/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -828,9 +828,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Magicfinger.Carry1st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -848,8 +851,8 @@
 				INFOPLIST_FILE = Carry1st/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -858,9 +861,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Magicfinger.Carry1st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
