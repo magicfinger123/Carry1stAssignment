@@ -14,10 +14,9 @@ struct CheckOutScreen: View {
     @Environment(\.presentationMode) var presentationMode
     @Query var tasks: [ProductData]
     @Environment(\.modelContext) var context
-    
+    @StateObject private var delegateHandler = CartDelegateHandler()
     var body: some View {
         VStack{
-            
             NormalBackAndTitleAppBar(title: "Checkout", backAction: {
                 presentationMode.wrappedValue.dismiss()
             })
@@ -26,7 +25,6 @@ struct CheckOutScreen: View {
               name: "Michael Ossai", address: "1 Sunday Ogunyade Street, Gbagada Express Way, beside Eterna Fuel Station, Gbagada, Lagos 100234, Nigeria"
             )
             HDivider()
-            
             List(tasks) { item in
                        CartItemWidget(
                            count: item.quantity,
@@ -36,13 +34,12 @@ struct CheckOutScreen: View {
                                    context.delete(item)
                                    return
                                }
-                               CartUtils.updateCounts(context: context, data: item, quantity: count)
+                               CartService.shared.updateItemQuantity(context: context, data: item, quantity: count)
                            }
                        )
                        .buttonStyle(PlainButtonStyle())
                    }
                    .listStyle(PlainListStyle())
-            
             VStack {
                 HStack {
                     HStack {
@@ -64,7 +61,7 @@ struct CheckOutScreen: View {
                 
                 
                 TotalAndDeliveryText(
-                    subTotal: CartUtils.calculateSubTotal(tasks: tasks), deliveryFee: "$5.00", total: CartUtils.calculateTotal(tasks: tasks)
+                    subTotal:  CartService.shared.calculateSubTotal(tasks: tasks), deliveryFee: "$5.00", total:  CartService.shared.calculateTotal(tasks: tasks)
                 )
                 NavigationButton(
                     destination: SuccessFulOrderScreen(), action: {
@@ -74,10 +71,23 @@ struct CheckOutScreen: View {
                 }
             }
         }.background(Color.white)
+            .onAppear {
+                CartService.shared.delegate = delegateHandler
+            }
             .navigationBarHidden(true)
+            .toastView(toast: $delegateHandler.toast)
     }
 }
 
+extension CheckOutScreen: CartServiceProtocol {
+    func cartActionSuccessful(msg: String) {
+        
+    }
+    
+    func cartActionFailed(msg: String) {
+        
+    }
+}
 #Preview {
     CheckOutScreen()
 }

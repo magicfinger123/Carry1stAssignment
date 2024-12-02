@@ -1,0 +1,24 @@
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/mock/MockCartServiceDelegate.swift":
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/MockCartServiceDelegate.swiftconstvalues"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/MockCartServiceDelegate.dia"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/MockCartServiceDelegate.d"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/MockCartServiceDelegate.o"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/MockCartServiceDelegate.swiftdeps"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/ApiService/service/APIService.swift":
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/APIService.swiftconstvalues"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/APIService.dia"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/APIService.o"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/APIService.swiftdeps"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/APIService.d"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Cart/cartCheckOut/ChangeAddressScreen.swift":
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ChangeAddressScreen.swiftconstvalues"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ChangeAddressScreen.o"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ChangeAddressScreen.swiftdeps"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ChangeAddressScreen.d"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ChangeAddressScreen.dia"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/ApiService/url/AppUrl.swift":
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/AppUrl.o"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/AppUrl.d"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/AppUrl.swiftconstvalues"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/AppUrl.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/AppUrl.dia"

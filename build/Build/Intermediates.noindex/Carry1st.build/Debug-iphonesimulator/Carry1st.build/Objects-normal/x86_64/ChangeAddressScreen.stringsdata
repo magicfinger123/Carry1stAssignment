@@ -1,0 +1,16 @@
+{
+  "source": "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Cart/cartCheckOut/ChangeAddressScreen.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter coupon code",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 27
+        }
+      }
+    ]
+  },
+  "version": 1
+}

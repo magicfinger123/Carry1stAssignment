@@ -1,0 +1,18 @@
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Cart/cartCheckOut/CheckOutScreen.swift":
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/CheckOutScreen.d"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/CheckOutScreen.o"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/CheckOutScreen.swiftconstvalues"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/CheckOutScreen.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/CheckOutScreen.dia"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Cart/cartCheckOut/SuccessFulOrderScreen.swift":
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SuccessFulOrderScreen.o"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SuccessFulOrderScreen.d"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SuccessFulOrderScreen.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SuccessFulOrderScreen.dia"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SuccessFulOrderScreen.swiftconstvalues"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Cart/cartCheckOut/SendOrderToPickUpScreen.swift":
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SendOrderToPickUpScreen.o"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SendOrderToPickUpScreen.d"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SendOrderToPickUpScreen.swiftconstvalues"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SendOrderToPickUpScreen.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/arm64/SendOrderToPickUpScreen.dia"

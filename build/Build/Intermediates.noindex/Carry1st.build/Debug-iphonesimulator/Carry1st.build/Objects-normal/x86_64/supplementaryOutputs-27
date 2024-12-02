@@ -1,0 +1,18 @@
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Home/view/ProductDetailsScreen.swift":
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductDetailsScreen.o"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductDetailsScreen.swiftconstvalues"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductDetailsScreen.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductDetailsScreen.dia"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductDetailsScreen.d"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Home/view/ProductItemView.swift":
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductItemView.d"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductItemView.swiftconstvalues"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductItemView.dia"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductItemView.o"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/ProductItemView.swiftdeps"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Features/Home/viewModel/HomeViewModel.swift":
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/HomeViewModel.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/HomeViewModel.dia"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/HomeViewModel.swiftconstvalues"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/HomeViewModel.d"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/HomeViewModel.o"

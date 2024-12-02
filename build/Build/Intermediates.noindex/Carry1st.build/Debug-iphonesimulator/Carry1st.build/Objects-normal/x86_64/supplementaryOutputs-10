@@ -1,0 +1,18 @@
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/Carry1stApp.swift":
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/Carry1stApp.swiftdeps"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/Carry1stApp.o"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/Carry1stApp.dia"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/Carry1stApp.swiftconstvalues"
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/Carry1stApp.d"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/utility/customWidgets.swift":
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/customWidgets.d"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/customWidgets.swiftconstvalues"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/customWidgets.o"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/customWidgets.dia"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/customWidgets.swiftdeps"
+"/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Carry1st/utility/constants.swift":
+  dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/constants.d"
+  object: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/constants.o"
+  const-values: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/constants.swiftconstvalues"
+  swift-dependencies: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/constants.swiftdeps"
+  diagnostics: "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Build/Intermediates.noindex/Carry1st.build/Debug-iphonesimulator/Carry1st.build/Objects-normal/x86_64/constants.dia"

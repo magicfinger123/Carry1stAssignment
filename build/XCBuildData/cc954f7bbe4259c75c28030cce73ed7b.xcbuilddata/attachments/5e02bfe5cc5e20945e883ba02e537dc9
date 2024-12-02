@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SwiftUI-SimpleToast-master.dia",
+    "emit-module-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SwiftUI-SimpleToast-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SwiftUI-SimpleToast-master-emit-module.dia",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SwiftUI-SimpleToast-master.swiftdeps"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/Modifier/SimpleToastFade.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastFade~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/Modifier/SimpleToastScale.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastScale~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/Modifier/SimpleToastSkew.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSkew~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/Modifier/SimpleToastSlide.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastSlide~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/SimpleToast.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToast~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/SimpleToastModifier.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastModifier~partial.swiftmodule"
+  },
+  "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/Pods/SwiftUI-SimpleToast/Sources/SimpleToast/SimpleToastOptions.swift" : {
+    "const-values" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.swiftconstvalues",
+    "dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.d",
+    "diagnostics" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.o",
+    "llvm-bc" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.bc",
+    "object" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.o",
+    "swift-dependencies" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions.swiftdeps",
+    "swiftmodule" : "/Users/michaelossai/Documents/GitHub/carry1st/Carry1st/build/Pods.build/Debug-iphoneos/SwiftUI-SimpleToast.build/Objects-normal/arm64/SimpleToastOptions~partial.swiftmodule"
+  }
+}

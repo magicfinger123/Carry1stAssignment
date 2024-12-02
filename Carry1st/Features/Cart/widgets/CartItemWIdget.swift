@@ -114,3 +114,89 @@ struct CartItemWidgetSmall: View {
         .padding(.vertical, 10.0)
     }
 }
+struct TotalAndDeliveryText: View {
+    var subTotal:String
+    var deliveryFee:String
+    var total:String
+    var body: some View {
+        VStack(spacing: 10.0) {
+            HStack(){
+                TxtWrk(txt: "Subtotal", size:12)
+                Spacer()
+                TxtWrk(txt: subTotal, size:12,maxLines: 1)
+            }
+            HStack(){
+                TxtWrk(txt: "Delivery fee", size:12)
+                Spacer()
+                TxtWrk(txt: deliveryFee, size:12,maxLines: 1)
+            }
+            HStack(){
+                TxtWrkSB(txt: "Total", size:14)
+                Spacer()
+                TxtWrkSB(txt: total, size:14,maxLines: 1)
+            }
+        }.padding(.horizontal,16)
+    }
+}
+
+struct AddressViewWidget: View {
+    //    var addAddressTap: () -> Void
+    var destination:AnyView
+    var name:String
+    var address:String
+    var body: some View {
+        
+        VStack{
+            HStack{
+                TxtWrkSB(txt: "Address Details", size: 12)
+                Spacer()
+                NavigationButton(
+                    destination: destination, action: {
+                        print("Button tapped")
+                    }) {
+                        Image("edit_pencil").resizable().scaledToFit().frame(width: 18,height: 18)
+                    }
+            }
+            Spacer().frame(height: 14)
+            HStack(alignment: .top){
+                Button(action: {
+                    // addAddressTap()
+                }){
+                    Image("home2").resizable().scaledToFit().frame(width: 16,height: 16)
+                }.frame(width: 30,height: 30).background(Color("orangeHue")).cornerRadius(5)
+                Spacer().frame(width: 12)
+                VStack(alignment: .leading){
+                    TxtWrkSB(txt:name, size: 14,color: "textH")
+                    Spacer().frame(height: 2)
+                    TxtWrk(txt:address, size: 13,color: "textSub",maxLines: 5)
+                }
+                
+                
+            }
+        }.padding(.horizontal,16)
+    }
+}
+struct AddressViewWidget2: View {
+    var name:String
+    var address:String
+    var body: some View {
+        
+        VStack{
+            HStack(alignment: .top){
+                Button(action: {
+                    // addAddressTap()
+                }){
+                    Image("home2").resizable().scaledToFit().frame(width: 16,height: 16)
+                }.frame(width: 30,height: 30).background(Color("orangeHue")).cornerRadius(5)
+                Spacer().frame(width: 12)
+                VStack(alignment: .leading){
+                    TxtWrk(txt:name, size: 15,color: "textH")
+                    Spacer().frame(height: 2)
+                    TxtWrk(txt:address, size: 13,color: "textSub",maxLines: 5)
+                }
+                
+                
+            }
+        }.padding(.horizontal,16)
+    }
+}

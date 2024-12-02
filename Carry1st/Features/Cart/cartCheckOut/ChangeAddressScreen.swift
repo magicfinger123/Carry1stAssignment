@@ -33,11 +33,7 @@ struct ChangeAddressScreen: View {
                 .background(Color("textFieldColor"))
                 .cornerRadius(8).padding(.horizontal,16)
             }//.padding(.horizontal,6)
-            
-            
             IconAndTextBtn(title: "Save address", icons: "save_white")
-           
-            
         }.background(Color.white)
             .navigationBarHidden(true)
     }

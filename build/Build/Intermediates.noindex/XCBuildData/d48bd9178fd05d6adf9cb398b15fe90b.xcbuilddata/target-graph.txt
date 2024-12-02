@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'Carry1stUITests' in project 'Carry1st'
+➜ Explicit dependency on target 'Carry1st' in project 'Carry1st'
+Target 'Carry1stTests' in project 'Carry1st'
+➜ Explicit dependency on target 'Carry1st' in project 'Carry1st'
+Target 'Carry1st' in project 'Carry1st' (no dependencies)

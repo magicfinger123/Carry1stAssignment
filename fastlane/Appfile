@@ -1,0 +1,8 @@
+app_identifier("Magicfinger.Carry1st") # The bundle identifier of your app
+apple_id("ossaimike8@gmail.com") # Your Apple Developer Portal username
+
+itc_team_id("119081263") # App Store Connect Team ID
+team_id("8W4J74NY5Z") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
